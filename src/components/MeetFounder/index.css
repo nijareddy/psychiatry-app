@@ -1,0 +1,76 @@
+.meet-founder-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f3e7;
+    border-radius: 12px;
+    min-height:100vh;
+
+  }
+  .btn{
+    display: flex;
+    align-items: center;
+  }
+  
+  .founder-details {
+    margin-left: 50px;
+    padding: 20px;
+    background-color: #fefaf1; 
+    border-radius: 12px;
+    border: 1px solid #f0d08c;
+    text-align: left;
+  }
+
+  .founder-image img {
+    width:100%;
+    border-radius: 15px;
+  }
+   
+ 
+
+
+  .founder-details h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: 'Bree Serif';
+  }
+  
+  .founder-details h3 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    font-family: 'Bree Serif';
+  }
+  
+  .founder-details h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #777;
+    margin-bottom: 20px;
+    font-family: 'Bree Serif';
+  }
+  
+  .founder-details p {
+    font-size: 24px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #333;
+    font-family: 'Bree Serif';
+  }
+  
+  .learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f0c14b; /* Gold gradient for button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #d1a233; /* Darker gold on hover */
+  }
+  

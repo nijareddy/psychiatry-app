@@ -1,0 +1,127 @@
+#treatment-focus {
+    padding: 50px;
+    background-color: #fdf6ef;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  #treatment-focus h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: #4b3f34;
+  }
+  
+  .treatment-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .treatment-item {
+    background-color: #fff7ed;
+    /* box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left; */
+    width: 50%;
+    min-width: 280px;
+    display: flex;
+  }
+  
+  .treatment-item img {
+    width: 50%;
+    height: 300px;
+    border-radius: 50%;
+  }
+  
+  .treatment-content {
+    padding: 20px;
+    width:50%;
+    text-align: left;
+  }
+  
+  .treatment-content h3 {
+    font-size: 1.5em;
+    color: #4b3f34;
+    margin-bottom: 15px;
+   
+  }
+  
+  .treatment-content p {
+    font-size: 1em;
+    color: #645f5a;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+
+#treatment-focus {
+  padding: 50px;
+  background-color: #fdf6ef;
+  text-align: center;
+}
+
+#treatment-focus h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  color: #4b3f34;
+}
+.reverse {
+    flex-direction: row-reverse;
+  }
+/* 
+.treatment-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.treatment-item {
+  background-color: #fff7ed;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: left;
+  width: 30%;
+  min-width: 280px;
+}
+
+.treatment-item img {
+  width: 100%;
+  height: auto;
+}
+
+.treatment-content {
+  padding: 20px;
+}
+
+.treatment-content h3 {
+  font-size: 1.5em;
+  color: #4b3f34;
+  margin-bottom: 15px;
+}
+
+.treatment-content p {
+  font-size: 1em;
+  color: #645f5a;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.learn-more-btn {
+  background-color: #e6b366;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.learn-more-btn:hover {
+  background-color: #cf9645;
+}
+   */

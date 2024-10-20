@@ -1,0 +1,55 @@
+.app-logo{
+    background-color: rgb(215, 189, 18);
+    height:30px;
+    width:30px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.app-name{
+    font-size: 20px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color:#ffffff;
+}
+.n{
+    display: flex;
+    justify-content: space-between;
+    width:90%;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.navbar{
+    background-color: #000000;
+    display:flex;
+    align-items: center;
+   justify-content: center;
+}
+.nav{
+    display:flex;
+    align-items: center;
+   
+}
+.list-item{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#ffffff;
+    list-style-type: none;
+    margin:4px;
+    text-decoration: none;
+}
+.book-btn{
+    background-color: rgb(215, 189, 18);
+    font-family: "Lucida Console", "Courier New", monospace;
+   font-size: 15px;
+   border-width:0px;
+   padding:10px 20px;
+   border-radius: 20px;
+   color:#000000;
+
+}
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
