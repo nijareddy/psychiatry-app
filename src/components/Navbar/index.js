@@ -4,10 +4,11 @@ import './index.css'
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <div className='n'>            <div className='nav'>
-                <div className='app-logo'></div>
-                <span className='app-name'>PSYCHIATRY</span>
-            </div>
+            <div className='n'>
+                <div className='nav'>
+                    <div className='app-logo'></div>
+                    <span className='app-name'>PSYCHIATRY</span>
+                </div>
 
 
                 <ul className='list'>

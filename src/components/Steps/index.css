@@ -1,0 +1,50 @@
+
+  .steps-container {
+    padding: 50px 20px;
+    text-align: center;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  .steps-container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #ffd700;
+  }
+  
+  .steps {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+  
+  .step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .step img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .step h2 {
+    font-size: 24px;
+    color: #ffd700;
+    margin-bottom: 10px;
+  }
+  
+  .step p {
+    font-size: 16px;
+  }
+  
+  .cta-button {
+    margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  }
+  

@@ -1,0 +1,80 @@
+.psychiatry-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfd6b7;
+  /* Light beige background */
+  padding: 40px;
+}
+
+.image-text-container {
+  display: flex;
+  max-width: 1200px;
+
+
+}
+
+.image-container {
+  width: 50%;
+}
+
+.image-container img {
+  width: 100%;
+  /* Adjust as necessary */
+  height: auto;
+  border-radius: 8px;
+}
+
+.text-container {
+  width: 50%;
+  text-align: left;
+  margin-left: 40px;
+
+}
+
+.text-container h2 {
+  font-size: 28px;
+  color: #000000;
+  font-family: 'Times New Roman';
+  margin-bottom: 35px;
+  font-weight: 600;
+}
+
+.text-section {
+  margin-bottom: 20px;
+  border-bottom: 2px solid #b39a47;
+}
+
+.section-header {
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.section-header h3 {
+  font-size: 25px;
+  margin-bottom: 5px;
+  font-family: 'Times New Roman';
+  color: #000000;
+  font-weight: 600;
+ 
+  /* Yellow underline */
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.toggle-button {
+  font-size: 30px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.text-section p {
+  font-size: 16px;
+  color: #000000;
+  margin-left: 20px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
