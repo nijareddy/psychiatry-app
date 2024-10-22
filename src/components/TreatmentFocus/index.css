@@ -6,9 +6,16 @@
   }
   
   #treatment-focus h2 {
-    font-size: 2.5em;
+    font-size: 30px;
     margin-bottom: 40px;
     color: #4b3f34;
+  }
+  @media(max-width:767px){
+    #treatment-focus h2 {
+      font-size:20px ;
+      margin-bottom: 20px;
+     
+    }
   }
   
   .treatment-container {
@@ -29,31 +36,66 @@
     min-width: 280px;
     display: flex;
   }
+  @media(max-width:767px){
+    .treatment-item {
+    
+      width: 100%;
+      min-width: 150px;
+ 
+    }
+  }
   
   .treatment-item img {
     width: 50%;
     height: 300px;
     border-radius: 50%;
   }
+  @media(max-width:767px){
+    .treatment-item img {
+      width: 50%;
+      height: 140px;
+      border-radius: 50%;
+    }
+  }
   
   .treatment-content {
-    padding: 20px;
+   
     width:50%;
     text-align: left;
   }
+  @media(max-width:767px){
+    .treatment-content{
+       padding: 10px;
+    }
+  }
   
   .treatment-content h3 {
-    font-size: 1.5em;
+    font-size: 24px;
     color: #4b3f34;
     margin-bottom: 15px;
    
   }
+  @media(max-width:767px){
+    .treatment-content h3 {
+      font-size: 18px;
+   
+      margin-bottom: 8px;
+     
+    }
+  }
   
   .treatment-content p {
-    font-size: 1em;
+    font-size: 20px;
     color: #645f5a;
     line-height: 1.6;
     margin-bottom: 20px;
+  }
+  @media(max-width:767px){
+    .treatment-content p {
+      font-size: 10px;
+
+      margin-bottom: 10px;
+    }
   }
   
 
@@ -67,6 +109,9 @@
   font-size: 2.5em;
   margin-bottom: 40px;
   color: #4b3f34;
+}
+@media(max-width:767px){
+    
 }
 .reverse {
     flex-direction: row-reverse;

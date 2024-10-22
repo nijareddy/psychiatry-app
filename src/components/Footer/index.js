@@ -16,7 +16,7 @@ const Footer = () => {
             <li><a href="#">Contact Us</a></li>
           </ul>
         </div>
-
+ 
         {/* Resources */}
         <div className="footer-section">
           <h3>Resources</h3>

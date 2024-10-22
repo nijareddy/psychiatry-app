@@ -1,102 +1,159 @@
+.states-container {
+  padding: 50px 20px;
+  text-align: center;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f4ec;
+  color: #333;
+  min-height: 100vh;
+}
 
-  
+@media (max-width:767px) {
   .states-container {
-    padding: 50px 20px;
-    text-align: center;
-    margin: 0;
-    font-family: 'Arial', sans-serif;
-    background-color: #f9f4ec;
-    color: #333;
+    padding: 30px 10px;
     min-height: 100vh;
   }
-  
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #444;
+  font-family: 'Bree Serif';
+}
+
+@media (min-width:767px) {
   h1 {
-    font-size: 32px;
-    font-weight: bold;
-    color: #444;
-    font-family: 'Bree Serif';
+    font-size: 22px;
+
   }
-  
+}
+
+.states-section {
+  margin-bottom: 50px;
+}
+
+@media (min-width:767px) {
   .states-section {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
-  
+}
+
+.states {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+@media (min-width:767px) {
   .states {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px;
+
+    margin-top: 20px;
   }
-  
-  .state {
-    text-align: center;
-  }
-  
+}
+
+.state {
+  text-align: center;
+}
+
+.state img {
+  width: 200;
+  height: 120;
+  border-radius: 100px 100px 0 0;
+  margin-bottom: 10px;
+}
+
+@media (min-width:767px) {
   .state img {
-    width: 200px;
-    height: 120px;
+    width: 80px;
+    height: 100px;
     border-radius: 100px 100px 0 0;
     margin-bottom: 10px;
   }
-  
+}
+
+.state h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-family: 'Bree Serif';
+}
+
+@media (min-width:767px) {
   .state h2 {
-    font-size: 20px;
-    font-weight: bold;
-    margin-bottom: 5px;
-    font-family: 'Bree Serif';
+    font-size: 15px;
+    
   }
-  
+}
+
+.state p {
+  font-size: 16px;
+  color: #666;
+  font-family: 'Bree Serif';
+}
+
+@media (min-width:767px) {
   .state p {
-    font-size: 16px;
-    color: #666;
-    font-family: 'Bree Serif';
-  }
+    font-size: 12px;
   
-  .faq-section {
-    text-align: left;
-    max-width: 700px;
-    margin: 0 auto;
   }
-  
-.faq-section h1{
-    font-family: 'Bree Serif';
-    text-align: center;
+}
+
+.faq-section {
+  text-align: left;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.faq-section h1 {
+  font-family: 'Bree Serif';
+  text-align: center;
 
 }
 
-  .faq-item {
-    margin-bottom: 20px;
-  }
-  
+.faq-item {
+  margin-bottom: 20px;
+}
+
+.faq-question {
+  display: flex;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Bree Serif';
+}
+
+@media (min-width:767px) {
   .faq-question {
-    display: flex;
-    font-size: 18px;
-    font-weight: bold;
-    font-family: 'Bree Serif';
+
+    font-size: 14px;
+ 
   }
   
-  .faq-answer {
+}
+
+.faq-answer {
 
 
-    border-radius: 5px;
-    border-top: none;
-    margin-top: -1px;
-  }
-  
-  .cta-button {
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  .cta-button a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #ffd700;
-    color: #333;
-    border-radius: 30px;
-    text-decoration: none;
-    transition: background-color 0.3s;
-  }
-  
-  .cta-button a:hover {
-    background-color: #e6b800;
-  }
+  border-radius: 5px;
+  border-top: none;
+  margin-top: -1px;
+}
+
+.cta-button {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cta-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffd700;
+  color: #333;
+  border-radius: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.cta-button a:hover {
+  background-color: #e6b800;
+}

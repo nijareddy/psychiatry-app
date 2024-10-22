@@ -9,7 +9,7 @@ const Navbar = () => {
                     <div className='app-logo'></div>
                     <span className='app-name'>PSYCHIATRY</span>
                 </div>
-
+ 
 
                 <ul className='list'>
                     <li className='list-item'><a href="#introSection" className='list-item'>Who we are</a></li>

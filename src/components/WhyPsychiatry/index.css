@@ -6,14 +6,22 @@
   /* Light beige background */
   padding: 40px;
 }
-
+@media(max-width:767px){
+  .psychiatry-container {
+    padding: 10px;
+  }
+}
 .image-text-container {
   display: flex;
   max-width: 1200px;
 
 
 }
-
+@media (max-width:767px){
+  .image-text-container{
+    max-width: 767px;
+  }
+}
 .image-container {
   width: 50%;
 }
@@ -24,14 +32,26 @@
   height: auto;
   border-radius: 8px;
 }
+@media(max-width:767px){
+  
+.image-container img {
 
+  border-radius: 4px;
+}
+}
 .text-container {
   width: 50%;
   text-align: left;
   margin-left: 40px;
 
 }
+@media(max-width:767px){
+  .text-container {
 
+    margin-left: 10px;
+  
+  }
+}
 .text-container h2 {
   font-size: 28px;
   color: #000000;
@@ -39,10 +59,23 @@
   margin-bottom: 35px;
   font-weight: 600;
 }
+@media(max-width:767px){
+  .text-container h2 {
+    font-size: 20px;
 
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+}
 .text-section {
   margin-bottom: 20px;
   border-bottom: 2px solid #b39a47;
+}
+@media(max-width:767px){
+  .text-section {
+    margin-bottom: 14px;
+ 
+  }
 }
 
 .section-header {
@@ -62,7 +95,13 @@
   display: inline-block;
   padding-bottom: 5px;
 }
-
+@media(max-width:767px){
+  .section-header h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+    padding-bottom: 2px;
+  }
+}
 .toggle-button {
   font-size: 30px;
   background: none;
@@ -71,10 +110,23 @@
   padding: 0;
   margin-right: 10px;
 }
+@media(max-width:767px){
+  .toggle-button {
+    font-size: 18px;
+  
+    margin-right: 5px;
+  }
+}
 
 .text-section p {
   font-size: 16px;
   color: #000000;
   margin-left: 20px;
   font-family: "Lucida Console", "Courier New", monospace;
+}
+@media(max-width:767px){
+  .text-section p {
+    font-size: 10px;
+   margin-left: 10px;
+  }
 }

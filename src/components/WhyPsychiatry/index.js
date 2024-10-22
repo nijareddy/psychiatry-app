@@ -29,7 +29,7 @@ const PsychiatryPage = () => {
         </div>
         <div className="text-container">
           <h2>Why Should You Choose Psychiatry?</h2>
-
+ 
           <div className="text-section">
             <div className="section-header" onClick={() => toggleSection('access')}>
             <button className="toggle-button">{isOpen.access ? <AiOutlineMinus/> : <GoPlus/>}</button>

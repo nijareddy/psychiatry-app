@@ -69,7 +69,7 @@ const Testimonials = () => {
                 <p className="author-name">{testimonial.name}</p>
                 <p className="author-company">{testimonial.company}</p>
               </div>
-            </div>
+             </div>
           </div>
         ))}
       </div>

@@ -13,7 +13,7 @@ const StatesAndFAQ = () => {
       <div className="states-section">
         <h1>Now Accepting Patients In The Following States</h1>
         <div className="states">
-          <div className="state">
+           <div className="state">
             <img src="/images/image6.jpg" alt="Arizona" />
             <h2>Arizona</h2>
             <p>In-person and Virtual appointment</p>
